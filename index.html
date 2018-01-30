@@ -4,74 +4,95 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="css/w3.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
-	<link rel="stylesheet" href="css/w3-theme-deep-orange.css">
+	<link rel="stylesheet" href="css/w3-theme-indigo.css">
 	<link rel="stylesheet" href="css/page.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Supermercado+One" rel="stylesheet">
+	<style type="text/css">
+		body, footer {
+			font-family: 'Lato', sans-serif;
+		}
+		.banner {
+			display: flex;
+			align-items: center;
+			font-family: 'Supermercado One', cursive;
+			font-size: 18px;
+			padding-top: 20px;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			font-family: 'Lato', sans-serif;
+		}
 
-
-
+		.alternate-font {
+			font-family: 'Supermercado One', cursive;
+		}
+		@media only screen and (max-width: 600px) {
+    	.banner { 
+    		text-align: center;
+        display: block;
+        width: 100%;
+    	}
+		}
+	</style>
 	<title>Pin Travel for iPhone</title>
-	<body >
-		<div class="w3-container w3-theme w3-card-2">
-		  <h2> Pin Travel </h2>
+	<body>
+		<div class="w3-container w3-theme-l1 w3-card-2">
+		  <h1> Pin Travel </h1>
 		</div>
-		<div class="w3-container w3-card-2">
-			<table class="w3-table">
-				<tr>
-					<td width="50%" height="100%" style="vertical-align:middle" >
-						<div class="w3-image" ><img src="img/logo.png"></div>
+		<div class="w3-container w3-card-2" style="position: relative;">
+			<div class="w3-content">
+				<div class="w3-row banner">
+					<div class="w3-col m4 l3" style="vertical-align: middle;">
+						<div class="w3-image"><img src="img/new_logo.png" style="width: 50%"></div>
 						<h2>Pin Travel</h2>
 						<i>Share, save and pin your trips.</p>
-		           		<p>Never forget where you have been before.</p></i>
-		           		<div class="w3-image" ><img src="img/coming-soon-app-store.png"></div>
-					</td>
-					<td width="50%" class="w3-hide-small">
-						<div class="w3-image"><img src="img/pinTraveliPhone2.png"></div>
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div class="w3-container w3-card-2">
-		<br>	
-			<div class="w3-row">
-				<div class="w3-col m6 l3">
-					<div class="w3-card-0" align="center">
-						<div class="w3-image">
-						<img src="img/ios8.png" alt="ios 8" style="margin:3px">
-						</div>
-						<div class="w3-container w3-teal" >
-							<p>Support for iOS 8 and above</p>
-						</div>
+			      <p>Never forget where you have been before.</p></i>
+			      <div class="w3-image"><img src="img/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg"></div>
 					</div>
-				</div>
-				<div class="w3-col m6 l3">
-					<div class="w3-card-0" align="center">
-						<img src="img/swift.png" alt="swift" style="margin:3px">
-						<div class="w3-container w3-orange" >
-							<p>Coded using Swift 1.2</p>
-						</div>
+					<div class="w3-col m4 l4">
+							
 					</div>
-				</div>
-				<div class="w3-col m6 l3">
-					<div class="w3-card-0 " align="center">
-						<div class="w3-image">
-							<img src="img/cloudkit.png" alt="cloudkit" style="margin:3px">
-						</div>
-						<div class="w3-container w3-blue-grey" >
-							<p>Store locations with CloudKit</p>
-						</div>
-					</div>
-				</div>
-				<div class="w3-col m6 l3">
-					<div class="w3-card-0" align="center">
-						<img src="img/mapkit.png" alt="mapkit" style="margin:3px">
-						<div class="w3-container w3-yellow" >
-							<p>Simple interface with MapKit</p>
-						</div>
+					<div class="w3-col m4 l5" style="line-height: 1.1">
+							<img src="img/pinTraveliPhone2.png" style="width: 100%">
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="w3-container ">
+
+		<div class="w3-theme-l4 w3-container" id="container1">
+			<div class="w3-content" align="right">
+				<h2 class="alternate-font">Everywhere you have traveled, pinned in your pocket</h2>
+			</div>
+			<div class="w3-content">
+				<div class="w3-row">
+					<div class="w3-col m7 l8">
+						iphoneImgHere
+					</div>
+					<div class="w3-col m5 l4" align="right">
+						<h4> Simply search for the name of the location you've traveled and add it among your pins!</h4>
+						<br>
+						<p> Supports iOS8 and Above </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="w3-theme-l3 w3-container w3-card-2" style="position: relative;" id="container2">
+			<div class="w3-content">
+				<h2 class="alternate-font">Never forget your travels again!</h2>
+			</div>
+			<div class="w3-content">
+				<div class="w3-row">
+					<div class="w3-col m4 l3">
+						<h4>Pin Traveler provides iCloud backups along with seemless syncronization across your iDevices.</h4>
+						<br>
+						<p> Requires iCloud to be enabled </p>
+					</div>
+					<div class="w3-col m5 l4" align="right">
+						iphoneImgHere
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="w3-theme-l2 w3-container">
 		<h3>Updates</h3>
 		<hr>
 			<div class="w3-row">
@@ -128,9 +149,9 @@
 				<div class="w3-image"><img src="img/pinTraveliPhone4.png"></div>
 			</div>
 		</div>-->
-		<footer class="w3-container w3-theme">
-			<p>Copyright © 2015 Mehmet Can Alaca. All Rights Reserved. </p>
-			<p>Contacts: mehmet.alaca@ggl.hisarschool.k12.tr</p>
+		<footer class="w3-container w3-theme-l1" align="center">
+			<p>Copyright © 2015-2018 Mehmet Can Alaca. All Rights Reserved. </p>
+			<p>Contacts: mcan.mac@gmail.com</p>
 		</footer>
 	</body>
 </HTML>
