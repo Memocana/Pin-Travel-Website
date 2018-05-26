@@ -1,9 +1,51 @@
 .img_thumb {
-    height: 100%;
-    margin-bottom: 5px;
-    margin-left: 9px;
-    display:table-cell;
-    vertical-align:middle;
+  height: 100%;
+  margin-bottom: 5px;
+  margin-left: 9px;
+  display:table-cell;
+  vertical-align:middle;
 }
 
+.parallax {
+    /* The image used
+    background-image: url("img_parallax.jpg");*/
+    background-color: #FFF;
 
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  body, footer {
+    font-family: 'Lato', sans-serif;
+
+  }
+  .banner {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Raleway', sans-serif;
+
+    font-size: 16px;
+    padding-top: 20px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .alternate-font {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+  }
+  @media only screen and (max-width: 600px) {
+    .banner { 
+      text-align: center;
+      display: block;
+      width: 100%;
+    }
+  }
