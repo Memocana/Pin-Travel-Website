@@ -21,26 +21,33 @@
   }
 
   body, footer {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
 
   }
   .banner {
     display: flex;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
 
-    font-family: 'Raleway', sans-serif;
 
     font-size: 16px;
     padding-top: 20px;
   }
 
+  .on-image {
+    color: white;
+    text-shadow: black 0px 2px 4px;
+  }
+
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
+    /*font-family: 'Lato', sans-serif;*/
+    font-family: 'Merienda', cursive;
   }
 
   .alternate-font {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
   }
   @media only screen and (max-width: 600px) {
     .banner { 
