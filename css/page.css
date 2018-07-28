@@ -6,7 +6,8 @@
   vertical-align:middle;
 }
 
-.parallax {
+@media only screen and (min-width: 769px) { 
+  .parallax {
     /* The image used
     background-image: url("img_parallax.jpg");*/
     background-color: #FFF;
@@ -19,6 +20,24 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+}
+
+@media only screen and (max-width: 768px) { 
+  .parallax {
+    /* The image used
+    background-image: url("img_parallax.jpg");*/
+    background-color: #FFF;
+
+    /* Set a specific height */
+    min-height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+  }
+}
+
+
 
   body, footer {
     font-family: 'Montserrat', sans-serif;
@@ -49,6 +68,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
   }
+
   @media only screen and (max-width: 600px) {
     .banner { 
       text-align: center;
