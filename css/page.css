@@ -41,13 +41,16 @@
 
   body, footer {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 
 
   }
+
   .banner {
     display: flex;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 
 
     font-size: 16px;
@@ -59,14 +62,14 @@
     text-shadow: black 0px 2px 4px;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  .title {
     /*font-family: 'Lato', sans-serif;*/
     font-family: 'Courgette', cursive;
   }
 
-  .alternate-font {
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
   }
 
   @media only screen and (max-width: 600px) {
