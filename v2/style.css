@@ -431,9 +431,9 @@ input:-webkit-autofill:focus {
 
 .home-area {
     width: 100%;
-    min-height: 1080px;
+    min-height: 100vh;
     background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
-    padding-top: 26vh;
+    padding-top: 18vh;
     color: #ffffff;
     margin-bottom: 100px;
 }
