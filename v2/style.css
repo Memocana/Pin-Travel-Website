@@ -433,7 +433,7 @@ input:-webkit-autofill:focus {
     width: 100%;
     min-height: 1080px;
     background: url('images/header-bg.jpg') no-repeat scroll center bottom / cover;
-    padding-top: 26vh;
+    padding-top: 18vh;
     color: #ffffff;
     margin-bottom: 100px;
 }
